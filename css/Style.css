@@ -72,13 +72,13 @@ cursor: pointer;
 display: none;
 }
 .about{
-  position: absolute;
-  left: 23%;
-  width: 60vb;
-   top : 30% ;
+  display: flex;
+  left: 40%;
+  width: 20%;
+   top : 10% ;
    height: 50%;
-   border-radius: 50%;
-   background-color: #852727;
+   
+   background-color: #aa9f9f;
   }
 img{
       width: 20vb;
@@ -88,21 +88,21 @@ img{
    }
 
    /* Services / Projects Section Styling */
-#services{
+.services{
   display: inline-flexbox;
-  background: #fff;
+
   color: #fff;
   display: inline-block;
-  top: 30rem;
+  top: 10rem;
   margin-top: 10%;
-  width: 70%;
+  
   border-left: 20%;
-  border-left: 1rem;
-
+  
+  width: 50%;
 
 }
 .services .title::before{
-
+  
   background:#fff ;
 }
 .services .title::after{
@@ -124,13 +124,13 @@ img{
 }
 .services .serv-content .card i{
   font-size:50px;
-  color: crimson;
+  color: rgb(145, 123, 127);
   transition: color 0.3s ease;
 
 
 }
 .services .serv-content .card:hover{
-  background: crimson;
+  background: rgb(145, 123, 127);
 
 }
 .services .serv-content .card .text{
